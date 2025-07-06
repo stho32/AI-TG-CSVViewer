@@ -4,6 +4,7 @@ Der CSV-Viewer soll nun riesige CSV-Dateien anzeigen, bspw. die 3-fache Menge an
 
 Dennoch sollte beim Start der Anwendung sofort die erste Seite angezeigt werden. Aber die maximale Seitenzahl kann dann natürlich noch nicht ermittelt werden. Solange [1] dies der Fall ist, geben Sie hinter der Anzahl der Seiten einfach ein „?“ aus:
 
+```
 No.|Name |Age|City    |
 ---+-----+---+--------+
 1. |Peter|42 |New York|
@@ -11,6 +12,7 @@ No.|Name |Age|City    |
 3. |Mary |35 |Munich  |
 Page 1 of 3?
 F)irst page, P)revious page, N)ext page, L)ast page, J)ump to page, S)ort, E)xit
+```
 
 Das Sortieren der Daten soll natürlich auch jetzt noch möglich sein. Bei riesigen Datenmengen keine einfache Aufgabe, aber lösbar 😉
 
