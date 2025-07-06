@@ -12,15 +12,18 @@ C:\>csvviewer.exe persons.csv
 
 …und der Inhalt der Datei wird nun wie folgt angezeigt: [2]
 
+```
 Name |Age|City    |
 -----+---+--------+ 
 Peter|42 |New York|
 Paul |57 |London  |
 Mary |35 |Munich  |
 F)irst page, P)revious page, N)ext page, L)ast page, E)xit
+```
 
 Seiten mit Datensätzen werden als Tabelle mit einer Kopfzeile und Zellenrändern wie abgebildet angezeigt. Die entsprechende Datei sieht wie folgt aus; bei einer Seitenlänge von 3 Datensätzen würden diese als drei Seiten dargestellt:
 
+```
 Name;Age;City 
 Peter;42;New York
 Paul;57;London
@@ -29,6 +32,7 @@ Jaques;66;Paris
 Yuri;23;Moscow
 Stephanie;47;Stockholm
 Nadia;29;Madrid
+```
 
 Jede Zeile enthält einen Datensatz; die erste Zeile enthält die Spaltennamen; Spalten werden durch “;” getrennt. Der Inhalt der Datensatzfelder ist einfach: keine Zeilenumbrüche, keine Feldtrenner, keine Verarbeitung von Werten in “”. Die Codierung der CSV-Textdateien ist UTF-8.
 
