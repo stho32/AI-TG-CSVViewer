@@ -8,6 +8,7 @@ Erweitern Sie die CSV-Viewer-Anwendung wie folgt:
 
 Die Anzeige sollte so aussehen:
 
+```
 No.|Name |Age|City    |
 ---+-----+---+--------+ 
  1.|Peter|42 |New York|
@@ -15,4 +16,4 @@ No.|Name |Age|City    |
  3.|Mary |35 |Munich  |
 Page 1 of 3
 F)irst page, P)revious page, N)ext page, L)ast page, J)ump to page, E)xit
-
+```
